@@ -1,12 +1,9 @@
 ---
-title: TextSage
+title: "TextSage: AI-Powered Text Analysis & Fact-Checking"
 draft: false
 tags: 
-date: 2025-02-15
+date: 0202-02-15
 ---
-
-# TextSage: AI-Powered Text Analysis & Fact-Checking
-
 ## Instant AI Analysis at Your Fingertips
 TextSage is your intelligent companion for understanding and fact-checking while browsing the web. Transform any text into clear explanations or verified facts with just a right-click.
 

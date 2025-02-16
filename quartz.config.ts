@@ -8,15 +8,15 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
-    pageTitleSuffix: "",
+    pageTitle: "🔍 TextSage",
+    pageTitleSuffix: " | AI Analysis Tool",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "textsage.netlify.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
@@ -24,32 +24,33 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Atkinson Hyperlegible",
+        body: "Atkinson Hyperlegible",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
+          light: "#ffffff",
+          lightgray: "#f0f0f0",
+          gray: "#c0c0c0",
+          darkgray: "#4a4a4a",
           dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          secondary: "#2196f3",  // A blue that matches modern Chrome extensions
+          tertiary: "#4caf50",   // A complementary green
+          highlight: "rgba(33, 150, 243, 0.15)",
+          textHighlight: "#ffeb3b88",
         },
         darkMode: {
+          // Keeping dark mode configuration but optimizing for light theme preference
           light: "#161618",
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          secondary: "#64b5f6",
+          tertiary: "#81c784",
+          highlight: "rgba(33, 150, 243, 0.15)",
+          textHighlight: "#ffeb3b88",
         },
       },
     },
@@ -85,7 +86,11 @@ const config: QuartzConfig = {
         enableSiteMap: true,
         enableRSS: true,
       }),
-      Plugin.Assets(),
+      Plugin.Assets({
+        resourcePath: "assets",
+        assetsPath: "assets",
+        includePattern: "**/*"
+      }),
       Plugin.Static(),
       Plugin.NotFoundPage(),
     ],
