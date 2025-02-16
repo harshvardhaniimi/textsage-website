@@ -86,11 +86,7 @@ const config: QuartzConfig = {
         enableSiteMap: true,
         enableRSS: true,
       }),
-      Plugin.Assets({
-        resourcePath: "assets",
-        assetsPath: "assets",
-        includePattern: "**/*"
-      }),
+      Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),
     ],
