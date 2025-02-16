@@ -62,4 +62,4 @@ Having issues or questions? Visit our [GitHub repository](https://github.com/har
 
 ---
 
-Made with ❤️ by [Harshvardhan](www.harsh17.in) | [Terms of Service](#) | [Privacy Policy](#)
+Made with ❤️ by [Harshvardhan](www.harsh17.in) | [[Privacy Policy]]
