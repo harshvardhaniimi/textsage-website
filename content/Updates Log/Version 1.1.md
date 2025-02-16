@@ -5,6 +5,8 @@ tags:
 ---
 I'm excited to announce TextSage 1.1, bringing major improvements to the extension based on early feedback from friends (Thanks Dea and Meenal)!
 
+**TL;DR:** The prompts have been updated. There is also Grok as an option that I particularly like for factchecking (replacement for Perplexity Pro). We also have a [new website](textsage.netlify.app).
+
 ## What's New in 1.1
 
 ### New Features
@@ -19,6 +21,12 @@ Dea suggested that we should be able to factcheck the images or explain the imag
 Share your thoughts and suggestions:
 * [GitHub Issues](https://github.com/harshvardhaniimi/textsage?tab=readme-ov-file)
 * Email: textsage@harsh17.in
+## Screenshots
+![[v1.2_main.png]]
+![[v1.2_perplexity.png]]
+![[v1.2_grok.png]]
+![[v1.2_chatgpt.png]]
+![[v1.2_claude.png]]
 
 ---
 
